@@ -1,13 +1,19 @@
 https://www.youtube.com/watch?v=E8zpgNPx8jE
-12:32
+12:39
 
 **1.command uv init**
 uv init is used to initialize a new Python project using uv (the fast Python package manager by Astral).
 
 It basically sets up a fresh project with proper structure and configuration.
 
-# AI News Aggregator
+**2.Packages**
+uv venv
+.\.venv\Scripts\Activate
 
+uv add sqlalchemy psycopg2-binary requests feedparser beautifulsoup4 python-dotenv openai
+
+# AI News Aggregator
+source
 An intelligent news aggregation system that scrapes AI-related content from multiple sources (YouTube channels, RSS feeds), processes them with LLM-powered summarization, curates personalized digests based on user preferences, and delivers daily email summaries.
 
 ## Overview
